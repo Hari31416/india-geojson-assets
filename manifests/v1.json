@@ -1,0 +1,805 @@
+{
+  "version": "v1",
+  "builder": "mapshaper@0.7.86",
+  "simplification": "5% weighted keep-shapes, precision=0.00001",
+  "assets": {
+    "india-states-reversed": {
+      "legacy_path": "geojsons/INDIA/INDIA_STATES_reversed.geojson",
+      "feature_count": 37,
+      "feature_key": "name",
+      "display": {
+        "path": "display/india-states-reversed/6eca50df8a955d57e3e55a3dd168e0e955d1fd26fad4939e1cc9ef80fd7b8030.geojson.gz",
+        "sha256": "6eca50df8a955d57e3e55a3dd168e0e955d1fd26fad4939e1cc9ef80fd7b8030",
+        "gzip_sha256": "ac55cb58c4a0bd3103425cc9bf8d35ee054f7919772b10486893d6a8f0385cb8",
+        "bytes": 76693,
+        "gzip_bytes": 24862
+      },
+      "original": {
+        "path": "original/india-states-reversed/b93c7ea561d77a17d13bb2153efccd5b9a15951934be6fcd881d9cc3db28e41a.geojson.gz",
+        "sha256": "b93c7ea561d77a17d13bb2153efccd5b9a15951934be6fcd881d9cc3db28e41a",
+        "gzip_sha256": "ff77c6c6cc231863a0081e5d611638116a7b9eae1234bd2d78609639b1aedcc9",
+        "bytes": 2266838,
+        "gzip_bytes": 930845
+      },
+      "original_feature_key": "STNAME_SH",
+      "level": "states"
+    },
+    "andaman-nicobar-districts": {
+      "legacy_path": "geojsons/andaman_nicobar_districts.geojson",
+      "feature_count": 3,
+      "feature_key": "name",
+      "display": {
+        "path": "display/andaman-nicobar-districts/1febfb177092e4811e28dd2de945e8fd5d56fa8bb7ad8f4545854f2d004dd88b.geojson.gz",
+        "sha256": "1febfb177092e4811e28dd2de945e8fd5d56fa8bb7ad8f4545854f2d004dd88b",
+        "gzip_sha256": "62fa7084acaaeebe913a4c2e5f8fec4060dbbd95cb6b1276c0ef99377b5ba392",
+        "bytes": 115874,
+        "gzip_bytes": 38058
+      },
+      "original": {
+        "path": "original/andaman-nicobar-districts/53968e9aa57fbaa0448013d2299a6ac6c73974333c8b8e8c19379f6e11310391.geojson.gz",
+        "sha256": "53968e9aa57fbaa0448013d2299a6ac6c73974333c8b8e8c19379f6e11310391",
+        "gzip_sha256": "8da5f62117f07a05a61e95376794aafb16718cf22d163e0f7b982935af3375b1",
+        "bytes": 4539782,
+        "gzip_bytes": 1712759
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "andhra-pradesh-districts": {
+      "legacy_path": "geojsons/andhra_pradesh_districts.geojson",
+      "feature_count": 26,
+      "feature_key": "name",
+      "display": {
+        "path": "display/andhra-pradesh-districts/bb3b2906dade01e9d572663e6567cf277371439b0612e4e4f8ad5eed6ac97f19.geojson.gz",
+        "sha256": "bb3b2906dade01e9d572663e6567cf277371439b0612e4e4f8ad5eed6ac97f19",
+        "gzip_sha256": "4b890b9275de8bb031e067171f9a480e69a143f8ee972df98a0ab29b0ecd4db9",
+        "bytes": 233279,
+        "gzip_bytes": 77319
+      },
+      "original": {
+        "path": "original/andhra-pradesh-districts/5fe0ed1f63089b00109e5ee63b25632e83b2bc1ed7bef6db324941fccc7a8521.geojson.gz",
+        "sha256": "5fe0ed1f63089b00109e5ee63b25632e83b2bc1ed7bef6db324941fccc7a8521",
+        "gzip_sha256": "ba3f4bb66c879784ae7d7dc30b3320509d3bacfacb9e4bbf1c1d5868b703fc86",
+        "bytes": 24730747,
+        "gzip_bytes": 2938906
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "arunachal-pradesh-districts": {
+      "legacy_path": "geojsons/arunachal_pradesh_districts.geojson",
+      "feature_count": 25,
+      "feature_key": "name",
+      "display": {
+        "path": "display/arunachal-pradesh-districts/17f9d6772aacf2aa05fe054b2f98ca70b1586051066731eda5df5192dc9e747f.geojson.gz",
+        "sha256": "17f9d6772aacf2aa05fe054b2f98ca70b1586051066731eda5df5192dc9e747f",
+        "gzip_sha256": "fee30ebfbf4c03aed9347297f9c1c960381c70565e7c85075a6ffb83e7a3e985",
+        "bytes": 41391,
+        "gzip_bytes": 11776
+      },
+      "original": {
+        "path": "original/arunachal-pradesh-districts/14db1b7353c35b3d7a2125a3eb96094cbfcc82364071c5181715a00c069a9e74.geojson.gz",
+        "sha256": "14db1b7353c35b3d7a2125a3eb96094cbfcc82364071c5181715a00c069a9e74",
+        "gzip_sha256": "c4d64e9e18a713246f83b0a0658266159c7ca34d24f1fd70434b02e390755b8a",
+        "bytes": 4070754,
+        "gzip_bytes": 498020
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "assam-districts": {
+      "legacy_path": "geojsons/assam_districts.geojson",
+      "feature_count": 33,
+      "feature_key": "name",
+      "display": {
+        "path": "display/assam-districts/9dac0156b55d5a9618cba3b21751fb954b5675ec649252233291f9bf12e91751.geojson.gz",
+        "sha256": "9dac0156b55d5a9618cba3b21751fb954b5675ec649252233291f9bf12e91751",
+        "gzip_sha256": "11c47791d6935de29003acc4ff291b1071e121092d470e31cf7fbee3259b6f91",
+        "bytes": 145394,
+        "gzip_bytes": 42409
+      },
+      "original": {
+        "path": "original/assam-districts/c33ec8abd5d64c375b06fbc8e711c98ebc93b6ee978ece986f69163822e3d8df.geojson.gz",
+        "sha256": "c33ec8abd5d64c375b06fbc8e711c98ebc93b6ee978ece986f69163822e3d8df",
+        "gzip_sha256": "2d9b35bc03731337546a989912911d17d43fff229b96097414fdc11bd36c4a5e",
+        "bytes": 19157476,
+        "gzip_bytes": 2282265
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "bihar-districts": {
+      "legacy_path": "geojsons/bihar_districts.geojson",
+      "feature_count": 38,
+      "feature_key": "name",
+      "display": {
+        "path": "display/bihar-districts/228b4003fce02e07854bebe55d78a6ee5bbfa9dd96bfa691b0c967baa72c011d.geojson.gz",
+        "sha256": "228b4003fce02e07854bebe55d78a6ee5bbfa9dd96bfa691b0c967baa72c011d",
+        "gzip_sha256": "6d9a312992adfb34b2c3a710321b13d3dc396cc979e752fa151a8fdd224eb4b9",
+        "bytes": 130985,
+        "gzip_bytes": 38358
+      },
+      "original": {
+        "path": "original/bihar-districts/d1faf6f5e32d7c03f5f89e79819a3de140d2a7e53a2616a34503000036c2e5b3.geojson.gz",
+        "sha256": "d1faf6f5e32d7c03f5f89e79819a3de140d2a7e53a2616a34503000036c2e5b3",
+        "gzip_sha256": "f936c8071990d93762343485fe89d209bbe907e6ae2ec5c40ba3d0ddbb230795",
+        "bytes": 4612402,
+        "gzip_bytes": 1782178
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "chandigarh-districts": {
+      "legacy_path": "geojsons/chandigarh_districts.geojson",
+      "feature_count": 1,
+      "feature_key": "name",
+      "display": {
+        "path": "display/chandigarh-districts/f96c6da177c9946ef56839b7e7417ef357350ddafd7ad3475cabd11139bede12.geojson.gz",
+        "sha256": "f96c6da177c9946ef56839b7e7417ef357350ddafd7ad3475cabd11139bede12",
+        "gzip_sha256": "02c1e8e8ae9725155553e8fbec48fd4213c302d3f1830b98a930cab1a290b16e",
+        "bytes": 1928,
+        "gzip_bytes": 789
+      },
+      "original": {
+        "path": "original/chandigarh-districts/60439396d6a92a310b748edc30b28268da3851ec27ee73441ac85e7516de6229.geojson.gz",
+        "sha256": "60439396d6a92a310b748edc30b28268da3851ec27ee73441ac85e7516de6229",
+        "gzip_sha256": "82f9b29a92513817e9cb8367af52587ea070823ef3c921a85878915787a6ccd2",
+        "bytes": 62738,
+        "gzip_bytes": 24369
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "chhattisgarh-districts": {
+      "legacy_path": "geojsons/chhattisgarh_districts.geojson",
+      "feature_count": 28,
+      "feature_key": "name",
+      "display": {
+        "path": "display/chhattisgarh-districts/538987efe37e6ea5d4bf40a830aa36a7015c3825d76fef2a6a1e3519e725a414.geojson.gz",
+        "sha256": "538987efe37e6ea5d4bf40a830aa36a7015c3825d76fef2a6a1e3519e725a414",
+        "gzip_sha256": "325fcc6661c25798b39fe1d439d395d6cad07e455eea0a36d51bf5a85af67d89",
+        "bytes": 179361,
+        "gzip_bytes": 56157
+      },
+      "original": {
+        "path": "original/chhattisgarh-districts/16525f453b733e23572de17ccc8788509756736650e867175d22cdc0b1351244.geojson.gz",
+        "sha256": "16525f453b733e23572de17ccc8788509756736650e867175d22cdc0b1351244",
+        "gzip_sha256": "d596630b51ddb8f4c85a3076811087d9e9d3ef5fd74cf278ccd7527079a5f81d",
+        "bytes": 6816361,
+        "gzip_bytes": 2067988
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "daman-diu-districts": {
+      "legacy_path": "geojsons/daman_diu_districts.geojson",
+      "feature_count": 2,
+      "feature_key": "name",
+      "display": {
+        "path": "display/daman-diu-districts/49175e32262b3412df855680bb5dd0fc79373359b415e15a883f21dace5e5f94.geojson.gz",
+        "sha256": "49175e32262b3412df855680bb5dd0fc79373359b415e15a883f21dace5e5f94",
+        "gzip_sha256": "525f9c2e254d7b2537275502209378264b935895c202e1ef462ccbe97c5a878e",
+        "bytes": 1864,
+        "gzip_bytes": 729
+      },
+      "original": {
+        "path": "original/daman-diu-districts/ee7f27d487d5b0a8323e2ab10ca3fb32586754f2540f9277e4c3eb901369c0f5.geojson.gz",
+        "sha256": "ee7f27d487d5b0a8323e2ab10ca3fb32586754f2540f9277e4c3eb901369c0f5",
+        "gzip_sha256": "ec2d9c2d665da747b351066e13989b240bd832cad4730d17a30472de462a3e4d",
+        "bytes": 46774,
+        "gzip_bytes": 18558
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "delhi-districts": {
+      "legacy_path": "geojsons/delhi_districts.geojson",
+      "feature_count": 11,
+      "feature_key": "name",
+      "display": {
+        "path": "display/delhi-districts/0cff24c88523fb0756352f219415944fb8f9bce3dd070ee37204a3e3e6d9c5bf.geojson.gz",
+        "sha256": "0cff24c88523fb0756352f219415944fb8f9bce3dd070ee37204a3e3e6d9c5bf",
+        "gzip_sha256": "d0ccd51c40047d1d099919a49c6cb4555801a665d2de91f61fdca84313ef597d",
+        "bytes": 13192,
+        "gzip_bytes": 3413
+      },
+      "original": {
+        "path": "original/delhi-districts/6c7293cbe9d46dd03376ac0e750436c2d6d8a145d64c93629d619859b0aac9da.geojson.gz",
+        "sha256": "6c7293cbe9d46dd03376ac0e750436c2d6d8a145d64c93629d619859b0aac9da",
+        "gzip_sha256": "6e7c684eaea0f9da067b7ad8ed427c243abb5f54a41450467c56615d4da67080",
+        "bytes": 331917,
+        "gzip_bytes": 124005
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "goa-districts": {
+      "legacy_path": "geojsons/goa_districts.geojson",
+      "feature_count": 2,
+      "feature_key": "name",
+      "display": {
+        "path": "display/goa-districts/7e4e195cdca6b58980968fbb7901f494c0f529539f84c7ce841e993f39e04278.geojson.gz",
+        "sha256": "7e4e195cdca6b58980968fbb7901f494c0f529539f84c7ce841e993f39e04278",
+        "gzip_sha256": "ec60e4f0d4213463cdee61d9abf4d6a12008a568c7f4d0743071a5c19b88df94",
+        "bytes": 6358,
+        "gzip_bytes": 2164
+      },
+      "original": {
+        "path": "original/goa-districts/eca8224ad8867ebb8290d9047c7d3b0244c9d10100c13e5b04efa2df117781d4.geojson.gz",
+        "sha256": "eca8224ad8867ebb8290d9047c7d3b0244c9d10100c13e5b04efa2df117781d4",
+        "gzip_sha256": "c0b74e768ed15c6bffb6890526eccaa86d54341b161649e506058380b3221150",
+        "bytes": 236835,
+        "gzip_bytes": 90074
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "gujarat-districts": {
+      "legacy_path": "geojsons/gujarat_districts.geojson",
+      "feature_count": 33,
+      "feature_key": "name",
+      "display": {
+        "path": "display/gujarat-districts/c76ac5747e87f835e40bf5eb8ebc87c00295e4c5e9e0b64475bb4d5630600101.geojson.gz",
+        "sha256": "c76ac5747e87f835e40bf5eb8ebc87c00295e4c5e9e0b64475bb4d5630600101",
+        "gzip_sha256": "7d889680a40a261a04ca6364206ffe6928c14ae2523bcbc9ee86458f65d34a52",
+        "bytes": 234333,
+        "gzip_bytes": 73908
+      },
+      "original": {
+        "path": "original/gujarat-districts/097bfa6f38ec0dd502e86e9cf6f4d8ab74afe379573da97e2f387e163e2a23dc.geojson.gz",
+        "sha256": "097bfa6f38ec0dd502e86e9cf6f4d8ab74afe379573da97e2f387e163e2a23dc",
+        "gzip_sha256": "33c0459c092d33d31cd3957f4ec7650ef82ffd1b9a0d24c9d12393b48f2a90fa",
+        "bytes": 8663657,
+        "gzip_bytes": 3330153
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "haryana-districts": {
+      "legacy_path": "geojsons/haryana_districts.geojson",
+      "feature_count": 22,
+      "feature_key": "name",
+      "display": {
+        "path": "display/haryana-districts/71c1e407f3fcbcaea2c8e18bf6849aa1bed5d4a8748f1a7ecc4bff57dfb22d6b.geojson.gz",
+        "sha256": "71c1e407f3fcbcaea2c8e18bf6849aa1bed5d4a8748f1a7ecc4bff57dfb22d6b",
+        "gzip_sha256": "d56326305b15b29c7a5eb99eebecf93027e21e265e40812ec930f3ce39d9d061",
+        "bytes": 92476,
+        "gzip_bytes": 27117
+      },
+      "original": {
+        "path": "original/haryana-districts/bfe4d77d5d43d1dfd1aebdb50855265ee61e403f3c2bb9b223f851e1a0a7b0f1.geojson.gz",
+        "sha256": "bfe4d77d5d43d1dfd1aebdb50855265ee61e403f3c2bb9b223f851e1a0a7b0f1",
+        "gzip_sha256": "8a193e3d6e7b77a1393cf8741c0e715b1935417e7bcd979a1efbf1a915fd7429",
+        "bytes": 3298064,
+        "gzip_bytes": 1267027
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "himachal-pradesh-districts": {
+      "legacy_path": "geojsons/himachal_pradesh_districts.geojson",
+      "feature_count": 12,
+      "feature_key": "name",
+      "display": {
+        "path": "display/himachal-pradesh-districts/87d418d086bc8f2d50a95595206ca0de0083c1ead9acd579f0aa3cbe103a8a68.geojson.gz",
+        "sha256": "87d418d086bc8f2d50a95595206ca0de0083c1ead9acd579f0aa3cbe103a8a68",
+        "gzip_sha256": "293bdd048493b8952092ebb113456cc6655ee78b066b0c029a9a45075e7e69c8",
+        "bytes": 67712,
+        "gzip_bytes": 19330
+      },
+      "original": {
+        "path": "original/himachal-pradesh-districts/d224dd46a1ec90063bfeb2984a392fbb7875544406f0ff0fafbabbb49e174df4.geojson.gz",
+        "sha256": "d224dd46a1ec90063bfeb2984a392fbb7875544406f0ff0fafbabbb49e174df4",
+        "gzip_sha256": "30c93bbf39522a9aa75bd5d8cfa69b0437e0e583382c6758a6b14620ecf62ae0",
+        "bytes": 2684583,
+        "gzip_bytes": 1028313
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "india": {
+      "legacy_path": "geojsons/india.geojson",
+      "feature_count": 37,
+      "feature_key": "name",
+      "display": {
+        "path": "display/india/6eca50df8a955d57e3e55a3dd168e0e955d1fd26fad4939e1cc9ef80fd7b8030.geojson.gz",
+        "sha256": "6eca50df8a955d57e3e55a3dd168e0e955d1fd26fad4939e1cc9ef80fd7b8030",
+        "gzip_sha256": "ac55cb58c4a0bd3103425cc9bf8d35ee054f7919772b10486893d6a8f0385cb8",
+        "bytes": 76693,
+        "gzip_bytes": 24862
+      },
+      "original": {
+        "path": "original/india/b93c7ea561d77a17d13bb2153efccd5b9a15951934be6fcd881d9cc3db28e41a.geojson.gz",
+        "sha256": "b93c7ea561d77a17d13bb2153efccd5b9a15951934be6fcd881d9cc3db28e41a",
+        "gzip_sha256": "ff77c6c6cc231863a0081e5d611638116a7b9eae1234bd2d78609639b1aedcc9",
+        "bytes": 2266838,
+        "gzip_bytes": 930845
+      },
+      "original_feature_key": "STNAME_SH",
+      "level": "states"
+    },
+    "jammu-kashmir-districts": {
+      "legacy_path": "geojsons/jammu_kashmir_districts.geojson",
+      "feature_count": 22,
+      "feature_key": "name",
+      "display": {
+        "path": "display/jammu-kashmir-districts/2405a079b6314fa0561ad27b0d3be71f38daef72badd98d3ab3bd19b60183c71.geojson.gz",
+        "sha256": "2405a079b6314fa0561ad27b0d3be71f38daef72badd98d3ab3bd19b60183c71",
+        "gzip_sha256": "5df491b806a84baf6aef888c94c1b5965cb85461c8d101ada606e1d60d03af86",
+        "bytes": 43334,
+        "gzip_bytes": 11735
+      },
+      "original": {
+        "path": "original/jammu-kashmir-districts/2d72c79bb77ddc11934ef1b20f3809642b81918752559158d673da91f4b05a95.geojson.gz",
+        "sha256": "2d72c79bb77ddc11934ef1b20f3809642b81918752559158d673da91f4b05a95",
+        "gzip_sha256": "47d8d9df41d8834ca33fbbcf5335553d448b54cd386e26cb2d261ed056be4262",
+        "bytes": 1419365,
+        "gzip_bytes": 552104
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "jharkhand-districts": {
+      "legacy_path": "geojsons/jharkhand_districts.geojson",
+      "feature_count": 24,
+      "feature_key": "name",
+      "display": {
+        "path": "display/jharkhand-districts/4fedee137d818fb91fd416420394f9b4895de33fdffc3f9e33f063507549eec9.geojson.gz",
+        "sha256": "4fedee137d818fb91fd416420394f9b4895de33fdffc3f9e33f063507549eec9",
+        "gzip_sha256": "80d2ed019563d8d219c9c0410a90bacff3984f386bc0bb242885dd85cb29b48f",
+        "bytes": 127715,
+        "gzip_bytes": 36599
+      },
+      "original": {
+        "path": "original/jharkhand-districts/6a3c1443b542da162cab8a6af97de24107bcb7ccd0cccc433718ce8c3ba6d7b0.geojson.gz",
+        "sha256": "6a3c1443b542da162cab8a6af97de24107bcb7ccd0cccc433718ce8c3ba6d7b0",
+        "gzip_sha256": "02a0dd5a8cbe5f8d5ddfbe8349db64b8748e0d0f82fe5a146424c10fb482558a",
+        "bytes": 4915387,
+        "gzip_bytes": 1867350
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "karnataka-districts": {
+      "legacy_path": "geojsons/karnataka_districts.geojson",
+      "feature_count": 30,
+      "feature_key": "name",
+      "display": {
+        "path": "display/karnataka-districts/3eb027fafa3e450a3d03d6140a72f9133147066b98954737bb0f4c4432081605.geojson.gz",
+        "sha256": "3eb027fafa3e450a3d03d6140a72f9133147066b98954737bb0f4c4432081605",
+        "gzip_sha256": "84b9ec65cc766897bb1ca9e601c279aeb1615ffb5747ed4e3b8e5a89ae37b812",
+        "bytes": 182133,
+        "gzip_bytes": 52170
+      },
+      "original": {
+        "path": "original/karnataka-districts/0c3541afa0f8a14ed8fe0854c032a247650af28cabda08e54685117806ab73bb.geojson.gz",
+        "sha256": "0c3541afa0f8a14ed8fe0854c032a247650af28cabda08e54685117806ab73bb",
+        "gzip_sha256": "2a530ba11ed7065a8d5f454afe23fd3766a8b75a9de6e4d4d830043e6f827740",
+        "bytes": 6816643,
+        "gzip_bytes": 2625786
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "kerala-districts": {
+      "legacy_path": "geojsons/kerala_districts.geojson",
+      "feature_count": 14,
+      "feature_key": "name",
+      "display": {
+        "path": "display/kerala-districts/7ab5baa8e0ab8cc11c7d8576dd6cb7b29ec7618c96edb6ca63bc54b8533c0e78.geojson.gz",
+        "sha256": "7ab5baa8e0ab8cc11c7d8576dd6cb7b29ec7618c96edb6ca63bc54b8533c0e78",
+        "gzip_sha256": "fd44f0df52862ccdfc1fe73211c1ee7939d8b435283fa58ffb9c8a977448b1ba",
+        "bytes": 54968,
+        "gzip_bytes": 15929
+      },
+      "original": {
+        "path": "original/kerala-districts/c7ae9c3a18f7855382b63586a2193e00135fa9ba4552cefbbea3697c13bf7fdb.geojson.gz",
+        "sha256": "c7ae9c3a18f7855382b63586a2193e00135fa9ba4552cefbbea3697c13bf7fdb",
+        "gzip_sha256": "75636ef0a297472df03441c4cf075471c0664a54c1fef27c6680ec5250d0b87a",
+        "bytes": 2005025,
+        "gzip_bytes": 785938
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "ladakh-districts": {
+      "legacy_path": "geojsons/ladakh_districts.geojson",
+      "feature_count": 2,
+      "feature_key": "name",
+      "display": {
+        "path": "display/ladakh-districts/27ba685d85e504c0461b1254fca8824274f7d8238943f06aa7ce5ddc55d2fba1.geojson.gz",
+        "sha256": "27ba685d85e504c0461b1254fca8824274f7d8238943f06aa7ce5ddc55d2fba1",
+        "gzip_sha256": "4a835e924464717680e2dadfc2ab14bc9c85d1d5a71ab72bbb0f0aa65a4394e5",
+        "bytes": 16917,
+        "gzip_bytes": 6066
+      },
+      "original": {
+        "path": "original/ladakh-districts/77c2e9f44e4f61cd7c04d0dc8e8a3fe65c1b3e3e8002783ecc7ee934ad354482.geojson.gz",
+        "sha256": "77c2e9f44e4f61cd7c04d0dc8e8a3fe65c1b3e3e8002783ecc7ee934ad354482",
+        "gzip_sha256": "476d490847ee15c6694886070f1fa0bf95fb3e7c925f9c2b78104f355e5d404b",
+        "bytes": 711204,
+        "gzip_bytes": 280890
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "lakshadweep-districts": {
+      "legacy_path": "geojsons/lakshadweep_districts.geojson",
+      "feature_count": 1,
+      "feature_key": "name",
+      "display": {
+        "path": "display/lakshadweep-districts/60e5e4f40492b6e960f6908b9b007538caef00e9209f9e93ef638cfdc79ccfe9.geojson.gz",
+        "sha256": "60e5e4f40492b6e960f6908b9b007538caef00e9209f9e93ef638cfdc79ccfe9",
+        "gzip_sha256": "8be26c9627e9e17dbb6669c56b4ca4c0f1af9716aa3333156de4edda844d8d7e",
+        "bytes": 2488,
+        "gzip_bytes": 998
+      },
+      "original": {
+        "path": "original/lakshadweep-districts/79fb99289ed3e4444e0c44440344b07b9d7064b25676be94b98a5372c0ea78af.geojson.gz",
+        "sha256": "79fb99289ed3e4444e0c44440344b07b9d7064b25676be94b98a5372c0ea78af",
+        "gzip_sha256": "40ebfef06262631f5a0fec43c0be8c4b3dea9cc8f2086e5a948824d77ca68e4d",
+        "bytes": 70756,
+        "gzip_bytes": 27919
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "madhya-pradesh-districts": {
+      "legacy_path": "geojsons/madhya_pradesh_districts.geojson",
+      "feature_count": 52,
+      "feature_key": "name",
+      "display": {
+        "path": "display/madhya-pradesh-districts/2a66ccab0e4c8ecd9e264a39aa5e8e385258219e1ba3a098f3f2df62fa845719.geojson.gz",
+        "sha256": "2a66ccab0e4c8ecd9e264a39aa5e8e385258219e1ba3a098f3f2df62fa845719",
+        "gzip_sha256": "b97da2dd438eb7d42e834e7d3f770d170f10d3ce25c2f583677b6ee079de2555",
+        "bytes": 413465,
+        "gzip_bytes": 129083
+      },
+      "original": {
+        "path": "original/madhya-pradesh-districts/19313430c10482d8fafdc0f5bbf20764f0623706d740702bb69010611fdd3422.geojson.gz",
+        "sha256": "19313430c10482d8fafdc0f5bbf20764f0623706d740702bb69010611fdd3422",
+        "gzip_sha256": "3831117e60b023f1574e341420440b3d8a309b573eb359f31a863cfd11255b01",
+        "bytes": 16068906,
+        "gzip_bytes": 6153613
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "maharashtra-districts": {
+      "legacy_path": "geojsons/maharashtra_districts.geojson",
+      "feature_count": 36,
+      "feature_key": "name",
+      "display": {
+        "path": "display/maharashtra-districts/8d16dbaad280ce2addc3fe8d3d822bcaa790eecbc17511ee1874b6863b71ddbb.geojson.gz",
+        "sha256": "8d16dbaad280ce2addc3fe8d3d822bcaa790eecbc17511ee1874b6863b71ddbb",
+        "gzip_sha256": "def1365b602a0489bdf3f935a8704cdfc92a5055b796f4e1b7a9555bd44c2ee9",
+        "bytes": 340370,
+        "gzip_bytes": 106452
+      },
+      "original": {
+        "path": "original/maharashtra-districts/3bf8f9ecd6e84534723a004006ed6788bfbff5d8e1796159e0cd93ec80023be0.geojson.gz",
+        "sha256": "3bf8f9ecd6e84534723a004006ed6788bfbff5d8e1796159e0cd93ec80023be0",
+        "gzip_sha256": "445c4f46257553c721cb3145572e89e86eb44c5ac9c202c5eecafb7d19277ecf",
+        "bytes": 13129094,
+        "gzip_bytes": 5020400
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "manipur-districts": {
+      "legacy_path": "geojsons/manipur_districts.geojson",
+      "feature_count": 16,
+      "feature_key": "name",
+      "display": {
+        "path": "display/manipur-districts/fbb0a9ea32960fa555ca8d0018949795221c4abc87245f31f66b37880d62d069.geojson.gz",
+        "sha256": "fbb0a9ea32960fa555ca8d0018949795221c4abc87245f31f66b37880d62d069",
+        "gzip_sha256": "64810158748ca3b80d7086518e2f30985bc818870bb64b4e0010243102a9bc73",
+        "bytes": 65282,
+        "gzip_bytes": 18376
+      },
+      "original": {
+        "path": "original/manipur-districts/2fdc38a6a77d110fdf5188e86f40adca785a9065d23db0447cfdbd97de80fc65.geojson.gz",
+        "sha256": "2fdc38a6a77d110fdf5188e86f40adca785a9065d23db0447cfdbd97de80fc65",
+        "gzip_sha256": "087672a58a71036537a1fff7947aba0c9752c799315d20ece37fed1884d82b59",
+        "bytes": 2425868,
+        "gzip_bytes": 928550
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "meghalaya-districts": {
+      "legacy_path": "geojsons/meghalaya_districts.geojson",
+      "feature_count": 11,
+      "feature_key": "name",
+      "display": {
+        "path": "display/meghalaya-districts/307201913b57dcaf3d951fcfce52b135401d25c90a4b7030639e19c2c36762f7.geojson.gz",
+        "sha256": "307201913b57dcaf3d951fcfce52b135401d25c90a4b7030639e19c2c36762f7",
+        "gzip_sha256": "2b9c215abbcc5907a8cd0338e9c4ba3d860ef6fcccdeaed39751f0661a277fd4",
+        "bytes": 29481,
+        "gzip_bytes": 8373
+      },
+      "original": {
+        "path": "original/meghalaya-districts/1d6f6a60c24d7de3ce82dd21c2498833930ee221133ecf63b248c4500054a41e.geojson.gz",
+        "sha256": "1d6f6a60c24d7de3ce82dd21c2498833930ee221133ecf63b248c4500054a41e",
+        "gzip_sha256": "dc4212d862087800e0e344c7d4f351b942634b61fdd7b1d5b03a1b77dd2bb94f",
+        "bytes": 908171,
+        "gzip_bytes": 351321
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "mizoram-districts": {
+      "legacy_path": "geojsons/mizoram_districts.geojson",
+      "feature_count": 11,
+      "feature_key": "name",
+      "display": {
+        "path": "display/mizoram-districts/161b401e40a53f1b7f81c0911251d1bd3986439705ddb020dbe098c4fe24423f.geojson.gz",
+        "sha256": "161b401e40a53f1b7f81c0911251d1bd3986439705ddb020dbe098c4fe24423f",
+        "gzip_sha256": "d5deb89adb129b2b1f62db914b2f829b9bcf0d858e5a6401310b10ed2bc41b59",
+        "bytes": 100253,
+        "gzip_bytes": 28973
+      },
+      "original": {
+        "path": "original/mizoram-districts/ae31986694d1196bf988574f6fd6def50a1bfbde3cb372c4e00d28f6f7f6f538.geojson.gz",
+        "sha256": "ae31986694d1196bf988574f6fd6def50a1bfbde3cb372c4e00d28f6f7f6f538",
+        "gzip_sha256": "15aa243431b4711b5783667d9cd52d2a0c224a2fec1cc066f2dd7a533976f23c",
+        "bytes": 4539889,
+        "gzip_bytes": 1215175
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "nagaland-districts": {
+      "legacy_path": "geojsons/nagaland_districts.geojson",
+      "feature_count": 11,
+      "feature_key": "name",
+      "display": {
+        "path": "display/nagaland-districts/c7fbf7b988e3c50d2ff038edcb64e88089d5a0c07bc8e58a1e07adfbc2b86a7a.geojson.gz",
+        "sha256": "c7fbf7b988e3c50d2ff038edcb64e88089d5a0c07bc8e58a1e07adfbc2b86a7a",
+        "gzip_sha256": "8c7a69ea4190947052f4a1dec7c1977d78d4b0a078007b35b50713b8bfbf56c2",
+        "bytes": 35682,
+        "gzip_bytes": 10196
+      },
+      "original": {
+        "path": "original/nagaland-districts/b911629d197d4460ebd2c5b0a542c7c66c4c5871c7d683cf6747b4bb2bafb0ab.geojson.gz",
+        "sha256": "b911629d197d4460ebd2c5b0a542c7c66c4c5871c7d683cf6747b4bb2bafb0ab",
+        "gzip_sha256": "e31a074e73849fba5482894fdefebbfedc2af3b5ecf7c30015b478c0d345c4a0",
+        "bytes": 4658921,
+        "gzip_bytes": 556665
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "odisha-districts": {
+      "legacy_path": "geojsons/odisha_districts.geojson",
+      "feature_count": 30,
+      "feature_key": "name",
+      "display": {
+        "path": "display/odisha-districts/b2798b7a6e073b19b19310589b5458edbff64db1567b9a841e094d3ce32eeacd.geojson.gz",
+        "sha256": "b2798b7a6e073b19b19310589b5458edbff64db1567b9a841e094d3ce32eeacd",
+        "gzip_sha256": "2ee69d48ebcd33fef9daa8d5e7f95e56086b4b4962e7f00876abf2f5f3224852",
+        "bytes": 194001,
+        "gzip_bytes": 57833
+      },
+      "original": {
+        "path": "original/odisha-districts/e3b55a5599924799ebe36cb853f938b20714ba9d23594841b7d6ef297e7f10ea.geojson.gz",
+        "sha256": "e3b55a5599924799ebe36cb853f938b20714ba9d23594841b7d6ef297e7f10ea",
+        "gzip_sha256": "11b56770adf8a448994eec694a3b590905121e0c367a15223d8c318321972f18",
+        "bytes": 7372510,
+        "gzip_bytes": 2836612
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "puducherry-districts": {
+      "legacy_path": "geojsons/puducherry_districts.geojson",
+      "feature_count": 4,
+      "feature_key": "name",
+      "display": {
+        "path": "display/puducherry-districts/0878e540c47d1afc46c21d209c8c44ec8c0a956772fde62e2fa19ed14ab8f575.geojson.gz",
+        "sha256": "0878e540c47d1afc46c21d209c8c44ec8c0a956772fde62e2fa19ed14ab8f575",
+        "gzip_sha256": "9430c42d09169d8034491a9507e9f6890333dcba46e2578291f69abb6f678f36",
+        "bytes": 6846,
+        "gzip_bytes": 2332
+      },
+      "original": {
+        "path": "original/puducherry-districts/daeeac27da2a3cf188a47965139c00ce0357a4da1ad6a4e2219b4dd23dc21d59.geojson.gz",
+        "sha256": "daeeac27da2a3cf188a47965139c00ce0357a4da1ad6a4e2219b4dd23dc21d59",
+        "gzip_sha256": "1e9868ed0bdd49ab341d7ff297d9432f99bc29e93224a38e9c4ad4f3503d6dea",
+        "bytes": 205577,
+        "gzip_bytes": 79816
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "punjab-districts": {
+      "legacy_path": "geojsons/punjab_districts.geojson",
+      "feature_count": 22,
+      "feature_key": "name",
+      "display": {
+        "path": "display/punjab-districts/c37e7cfd74a1c66169ec9c311ace85bf04cd097c572f471640bdee0525f1f9c5.geojson.gz",
+        "sha256": "c37e7cfd74a1c66169ec9c311ace85bf04cd097c572f471640bdee0525f1f9c5",
+        "gzip_sha256": "7b07fbab74077efc10d95ace2947462a235e602ade089d3973afa2929247a4e2",
+        "bytes": 112382,
+        "gzip_bytes": 32162
+      },
+      "original": {
+        "path": "original/punjab-districts/bd8e6276660baed2c652db8dba29b34919dff698d4fb501c3a7a973ffd77f255.geojson.gz",
+        "sha256": "bd8e6276660baed2c652db8dba29b34919dff698d4fb501c3a7a973ffd77f255",
+        "gzip_sha256": "b03ae45213e5411837021ca8ab9b01e7cc7fa7867fad5291b4abf4903bd70f71",
+        "bytes": 4254623,
+        "gzip_bytes": 1623005
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "rajasthan-districts": {
+      "legacy_path": "geojsons/rajasthan_districts.geojson",
+      "feature_count": 33,
+      "feature_key": "name",
+      "display": {
+        "path": "display/rajasthan-districts/5cebd10ac11c07a9e4989853b60728b56ba68338e4fdbf5c720de11df890eb43.geojson.gz",
+        "sha256": "5cebd10ac11c07a9e4989853b60728b56ba68338e4fdbf5c720de11df890eb43",
+        "gzip_sha256": "8535ddd4356420ff51a0436e38c4d928c0162dd1448e68ca24463261ff30ab67",
+        "bytes": 227390,
+        "gzip_bytes": 70049
+      },
+      "original": {
+        "path": "original/rajasthan-districts/9a4be1e37d55257164fe04eb28e07b072373607fb1c5c5c06a3a5951611ad584.geojson.gz",
+        "sha256": "9a4be1e37d55257164fe04eb28e07b072373607fb1c5c5c06a3a5951611ad584",
+        "gzip_sha256": "d26afbfe3ee3cc410edf8df3a1b8a89f8d649ea0cd437aac5fa9f216de2923c0",
+        "bytes": 8557446,
+        "gzip_bytes": 3304047
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "sikkim-districts": {
+      "legacy_path": "geojsons/sikkim_districts.geojson",
+      "feature_count": 6,
+      "feature_key": "name",
+      "display": {
+        "path": "display/sikkim-districts/f9d2dfdda7697c171d66f62828779eea5c9f6f35b81aa82d2602fe4b9ac12940.geojson.gz",
+        "sha256": "f9d2dfdda7697c171d66f62828779eea5c9f6f35b81aa82d2602fe4b9ac12940",
+        "gzip_sha256": "4d54adb28447761611bcf6bd458a8b159898e3b71fc6a3cc2a00e53928e05c6a",
+        "bytes": 29106,
+        "gzip_bytes": 8400
+      },
+      "original": {
+        "path": "original/sikkim-districts/3bf10dc4108592a3b41a92b56a461524b143c798d4b3932d3584f69f92bcccf6.geojson.gz",
+        "sha256": "3bf10dc4108592a3b41a92b56a461524b143c798d4b3932d3584f69f92bcccf6",
+        "gzip_sha256": "33f2696ba3fe2e6b1d4c42b99de2498637a82d53441193a49798700618e9b12f",
+        "bytes": 1243005,
+        "gzip_bytes": 460056
+      },
+      "original_feature_key": "district",
+      "level": "districts"
+    },
+    "tamil-nadu-districts": {
+      "legacy_path": "geojsons/tamil_nadu_districts.geojson",
+      "feature_count": 38,
+      "feature_key": "name",
+      "display": {
+        "path": "display/tamil-nadu-districts/32aa23e30c0ba654792c04157e6bc4f1ae1fc8a5ba624d47cccd2d05baeeb2a9.geojson.gz",
+        "sha256": "32aa23e30c0ba654792c04157e6bc4f1ae1fc8a5ba624d47cccd2d05baeeb2a9",
+        "gzip_sha256": "cec6ed15918be28da7191d9822c246557e4b8c29df6ac8eb78648bbfaa9258a2",
+        "bytes": 262165,
+        "gzip_bytes": 85384
+      },
+      "original": {
+        "path": "original/tamil-nadu-districts/2461a25c6f1abfcaadd7ed4d3d70fc06f8aff7e2ddc6d32762c9ba83861f2f2e.geojson.gz",
+        "sha256": "2461a25c6f1abfcaadd7ed4d3d70fc06f8aff7e2ddc6d32762c9ba83861f2f2e",
+        "gzip_sha256": "76e4b52b5f0eebe36c944bf9b9882147d2ea9855b0196927db1151da645e9434",
+        "bytes": 9317225,
+        "gzip_bytes": 3555038
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "telangana-districts": {
+      "legacy_path": "geojsons/telangana_districts.geojson",
+      "feature_count": 33,
+      "feature_key": "name",
+      "display": {
+        "path": "display/telangana-districts/d37907f521bf4d988307b2afe2ef113013feeebff0dfb6dac55c865479452e90.geojson.gz",
+        "sha256": "d37907f521bf4d988307b2afe2ef113013feeebff0dfb6dac55c865479452e90",
+        "gzip_sha256": "04cc955250fcc4d1dc7927ea0447186b61b2cb272f8382beb30175c718a55db9",
+        "bytes": 121231,
+        "gzip_bytes": 38331
+      },
+      "original": {
+        "path": "original/telangana-districts/47bd75ce7f69c7ce33fc83d40a4435218b202e2b5f10f5477c94d7da2758f1b6.geojson.gz",
+        "sha256": "47bd75ce7f69c7ce33fc83d40a4435218b202e2b5f10f5477c94d7da2758f1b6",
+        "gzip_sha256": "b235b542ee81be3ad893ba43a2caf959a0ce6d26506040b440404f734dd2b757",
+        "bytes": 4315707,
+        "gzip_bytes": 1677205
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "tripura-districts": {
+      "legacy_path": "geojsons/tripura_districts.geojson",
+      "feature_count": 8,
+      "feature_key": "name",
+      "display": {
+        "path": "display/tripura-districts/f44fac747c12d2f1a95bb8ebf123c824684d80d733f31176fdd23c19054b1925.geojson.gz",
+        "sha256": "f44fac747c12d2f1a95bb8ebf123c824684d80d733f31176fdd23c19054b1925",
+        "gzip_sha256": "f51370ced8e5356004d0ffd4885343dadfab4d8357252f2d49f03432221803d1",
+        "bytes": 32347,
+        "gzip_bytes": 9336
+      },
+      "original": {
+        "path": "original/tripura-districts/806dc4bd1567dba3bfa7fc45c91d1ead8d82bfbd255030190deb86d13e5bc5f2.geojson.gz",
+        "sha256": "806dc4bd1567dba3bfa7fc45c91d1ead8d82bfbd255030190deb86d13e5bc5f2",
+        "gzip_sha256": "b53637cf2c4bce3d0f1ab1d872fddb9610310cc98b7b2aee6a3867e07010e2b2",
+        "bytes": 1143586,
+        "gzip_bytes": 440426
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "uttar-pradesh-districts": {
+      "legacy_path": "geojsons/uttar_pradesh_districts.geojson",
+      "feature_count": 75,
+      "feature_key": "name",
+      "display": {
+        "path": "display/uttar-pradesh-districts/1db32be3fb8b194f9e735b42f6d3b4d6901f450ccf7818f90b541f6934cc5e4a.geojson.gz",
+        "sha256": "1db32be3fb8b194f9e735b42f6d3b4d6901f450ccf7818f90b541f6934cc5e4a",
+        "gzip_sha256": "abceeeee17b89887145e6f2485a9356c7a0473b62d689a2bc0a1923975f46d10",
+        "bytes": 443504,
+        "gzip_bytes": 133425
+      },
+      "original": {
+        "path": "original/uttar-pradesh-districts/31680f0b58b484b8ed0aa6ae12967db17d614de78317a779d40ae9da298bd086.geojson.gz",
+        "sha256": "31680f0b58b484b8ed0aa6ae12967db17d614de78317a779d40ae9da298bd086",
+        "gzip_sha256": "6109f3f8f961b5090e9e71344fa4bbd834d65443af93985989a9f29a89ac8f1f",
+        "bytes": 16798949,
+        "gzip_bytes": 6419954
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "uttarakhand-districts": {
+      "legacy_path": "geojsons/uttarakhand_districts.geojson",
+      "feature_count": 13,
+      "feature_key": "name",
+      "display": {
+        "path": "display/uttarakhand-districts/ce514ba6e85fccf34d6097ccfb672408ff4a003b319617e9a378d3da13ac254e.geojson.gz",
+        "sha256": "ce514ba6e85fccf34d6097ccfb672408ff4a003b319617e9a378d3da13ac254e",
+        "gzip_sha256": "6ecbcecdae2db9a35695c72b51b9bbcc5ba926f8f2965418227bd4e984504553",
+        "bytes": 68827,
+        "gzip_bytes": 19287
+      },
+      "original": {
+        "path": "original/uttarakhand-districts/0cc5451803125885989767d599e5476d658308df6dbbccf2a5365b10a87b38ac.geojson.gz",
+        "sha256": "0cc5451803125885989767d599e5476d658308df6dbbccf2a5365b10a87b38ac",
+        "gzip_sha256": "536ff291dca228f51451cbec993f813c916bb3f00d0e4c69a8e152e4cff1980f",
+        "bytes": 2553115,
+        "gzip_bytes": 987256
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    },
+    "west-bengal-districts": {
+      "legacy_path": "geojsons/west_bengal_districts.geojson",
+      "feature_count": 23,
+      "feature_key": "name",
+      "display": {
+        "path": "display/west-bengal-districts/a47e60998b02d63dfaf7f55a691b44bf11ccdb0e83df7acb3f15f1172f2d7cfa.geojson.gz",
+        "sha256": "a47e60998b02d63dfaf7f55a691b44bf11ccdb0e83df7acb3f15f1172f2d7cfa",
+        "gzip_sha256": "ea708effa8347b4e54efb63817aea72501a2f127fe66e24d51601a341f85a3f1",
+        "bytes": 106404,
+        "gzip_bytes": 33124
+      },
+      "original": {
+        "path": "original/west-bengal-districts/610a98d965a9617ec9f1ca02897ae6533eaad8bb6d7271d2d7194541f067ff30.geojson.gz",
+        "sha256": "610a98d965a9617ec9f1ca02897ae6533eaad8bb6d7271d2d7194541f067ff30",
+        "gzip_sha256": "a846c43798b08795680feae1db5c5440b88f32d8c83eef2cc101fd28991388cd",
+        "bytes": 3941529,
+        "gzip_bytes": 1529124
+      },
+      "original_feature_key": "dtname",
+      "level": "districts"
+    }
+  }
+}
